@@ -2,7 +2,6 @@
     --nav__border__color : green;
 
 }
-
 * {
 
     box-sizing: border-box;
@@ -10,33 +9,33 @@
     /* border: 1px solid black; */
 }
 
+/* FONT_STYLE */
+a {
+    color: black;
+    text-decoration: none;
+}
+
 body {
     background-color: darkslategray;
 }
-
-
 #__main-container {
     display: flex;
 }
-
 .item {
-
     height: 100vh;
     background-color: rgb(48, 48, 48);
 }
-
 #main-doc {
     background-color: darkgray;
     flex-grow: 2;
 }
-
 /* NAV--------------------- */
 #aside {
     display: flex;
     flex-direction: column;
     background-color: grey;
-    width: 5%;
-    max-width: 15rem;
+    width: 15%;
+    max-width: 20em;
     flex-grow: 1;
 }
 #nav__tile {
@@ -47,8 +46,7 @@ body {
     width: 100%;
     padding: 1em 0;
     padding-left: 1em;
-    background-color: lightblue;
-    border-top: 1px solid var(--nav__border__color);    
+    border: 1px solid orange;
 }
-
+/* NAV----------------------- */
 
