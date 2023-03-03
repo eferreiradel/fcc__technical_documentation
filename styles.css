@@ -1,0 +1,54 @@
+::root {
+    --nav__border__color : green;
+
+}
+
+* {
+
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* border: 1px solid black; */
+}
+
+body {
+    background-color: darkslategray;
+}
+
+
+#__main-container {
+    display: flex;
+}
+
+.item {
+
+    height: 100vh;
+    background-color: rgb(48, 48, 48);
+}
+
+#main-doc {
+    background-color: darkgray;
+    flex-grow: 2;
+}
+
+/* NAV--------------------- */
+#aside {
+    display: flex;
+    flex-direction: column;
+    background-color: grey;
+    width: 5%;
+    max-width: 15rem;
+    flex-grow: 1;
+}
+#nav__tile {
+    background-color: grey;
+    text-align: center;
+}
+.__nav__item {
+    width: 100%;
+    padding: 1em 0;
+    padding-left: 1em;
+    background-color: lightblue;
+    border-top: 1px solid var(--nav__border__color);    
+}
+
+
